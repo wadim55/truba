@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\MyWork\UNITY\Unity projects\Truba" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Animation" t="Include" />
+        <e p="Editor" t="Include">
+          <e p="Resources" t="Include" />
+        </e>
+        <e p="Fonts" t="Include" />
+        <e p="Plugins" t="Include">
+          <e p="Android" t="Include" />
+          <e p="iOS" t="Include">
+            <e p="UnityAds.framework" t="Include">
+              <e p="Headers" t="Include" />
+              <e p="Modules" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Prefabs" t="Include">
+          <e p="Animals" t="Include" />
+        </e>
+        <e p="Scene" t="Include" />
+        <e p="Scenes" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="AnimalController.cs" t="Include" />
+          <e p="CameraShake.cs" t="Include" />
+          <e p="Manager" t="Include">
+            <e p="FacebookShare.cs" t="Include" />
+            <e p="GameManager.cs" t="Include" />
+            <e p="GameSceneAdsManager.cs" t="Include" />
+            <e p="HideText.cs" t="Include" />
+            <e p="InGameGui.cs" t="Include" />
+            <e p="MainMenu.cs" t="Include" />
+            <e p="ShopScript.cs" t="Include" />
+            <e p="UnityAdsManager.cs" t="Include" />
+          </e>
+          <e p="MyAcrion.cs" t="Include" />
+          <e p="ObjectPooling.cs" t="Include" />
+          <e p="PipeAnim.cs" t="Include" />
+          <e p="PipeScript.cs" t="Include" />
+          <e p="SpawnerController.cs" t="Include" />
+        </e>
+        <e p="Sounds" t="Include" />
+        <e p="Sprites" t="Include">
+          <e p="Background" t="Include" />
+          <e p="GUI" t="Include" />
+          <e p="Icons" t="Include" />
+        </e>
+        <e p="UnityAds" t="Include">
+          <e p="link.xml" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+      <e p="Truba.sln" t="IncludeFlat" />
+    </e>
+    <e p="C:\Users\korki\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\korki\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Truba.1741027316.00" t="ExcludeRecursive" />
+  </component>
+</project>
