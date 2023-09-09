@@ -4,7 +4,7 @@ using System;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 /// <summary>
-/// This script helps in saving and loading data in device
+/// Этот скрипт помогает сохранять и загружать данные в устройство
 /// </summary>
 public class GameManager : MonoBehaviour {
 
@@ -12,41 +12,26 @@ public class GameManager : MonoBehaviour {
 
     private GameData data;
 
-    //data which is not stored on device but refered while game is on
+    //данные, которые не хранятся на устройстве, но передаются во время игры
     public bool isGameOver = false;
     public int currentScore;
 
-    //data to store on device
+    //данные для хранения на устройстве
     public bool isGameStartedFirstTime;
     public bool isMusicOn;
     public int hiScore, points, textureStyle;
-    public bool canShowAds;//when noAds is false we show ads and when its true we dont show it
+    public bool canShowAds;//когда значение no Ads равно false, мы показываем рекламу, а когда это правда, мы ее не показываем
     public bool showRate;
     public bool[] textureUnlocked;
-    //ref to the background music
-    //private AudioSource audio;
+    
 
     void Awake()
     {
         MakeInstance();
         InitializeVariables();
-
-        //if you increase or decrease the shop button shance values here also
-        //textureUnlocked = new bool[4];
-        //textureUnlocked[0] = true;
-        //for (int i = 1; i < textureUnlocked.Length; i++)
-        //{
-        //    textureUnlocked[i] = false;
-        //}
-        //Save();
-        //Load();
-
-    }
-
-    void Start()
-    {
         
     }
+
 
     void MakeInstance()
     {
@@ -61,10 +46,10 @@ public class GameManager : MonoBehaviour {
         }
     }
 
-    //we initialize variables here
+    //здесь мы инициализируем переменные
     void InitializeVariables()
     {
-        //first we load any data is avialable
+        //сначала мы загружаем любые доступные данные
         Load();
         if (data != null)
         {
@@ -76,7 +61,7 @@ public class GameManager : MonoBehaviour {
         }
         if (isGameStartedFirstTime)
         {
-            //when game is started for 1st time on device we set the initial values
+            //когда игра запускается в первый раз на устройстве, мы устанавливаем начальные значения
             isGameStartedFirstTime = false;
             hiScore = 0;
             points = 0;
@@ -92,7 +77,7 @@ public class GameManager : MonoBehaviour {
             showRate = true;
             data = new GameData();
 
-            //storing data
+            //хранение данных
             data.setIsGameStartedFirstTime(isGameStartedFirstTime);
             data.setIsMusicOn(isMusicOn);
             data.setHiScore(hiScore);
@@ -106,7 +91,7 @@ public class GameManager : MonoBehaviour {
         }
         else
         {
-            //getting data
+            //получение данных
             isGameStartedFirstTime = data.getIsGameStartedFirstTime();
             isMusicOn = data.getIsMusicOn();
             hiScore = data.getHiScore();
@@ -118,19 +103,8 @@ public class GameManager : MonoBehaviour {
         }
     }
 
-    void Update()
-    {//here we control the background music
-        //if (isGameOver == false && audio.isPlaying == false)
-        //{
-        //    audio.Play();
-        //}
-        //else if (isGameOver == true)
-        //{
-        //    audio.Stop();
-        //}
-    }
-
-    //method to save data
+    
+    //метод сохранения данных
     public void Save()
     {
         FileStream file = null;
@@ -163,14 +137,14 @@ public class GameManager : MonoBehaviour {
         }
     }
 
-    //method to load data
+    //способ загрузки данных
     public void Load()
     {
         FileStream file = null;
         try
         {
             BinaryFormatter bf = new BinaryFormatter();
-            file = File.Open(Application.persistentDataPath + "/GameInfo.dat", FileMode.Open);//here we get saved file
+            file = File.Open(Application.persistentDataPath + "/GameInfo.dat", FileMode.Open);//здесь мы получаем сохраненный файл
             data = (GameData)bf.Deserialize(file);
         }
         catch (Exception e) { }
@@ -194,7 +168,7 @@ class GameData
     private bool canShowAds;
     private bool showRate;
 
-    //is game started 1st time
+    //игра запущена в 1-й раз
     public void setIsGameStartedFirstTime(bool isGameStartedFirstTime)
     {
         this.isGameStartedFirstTime = isGameStartedFirstTime;
@@ -215,8 +189,7 @@ class GameData
     {
         return canShowAds;
     }
-
-    //rate
+    
     public void setShowRate(bool showRate)
     {
         this.showRate = showRate;
@@ -227,7 +200,7 @@ class GameData
         return showRate;
     }
 
-    //music
+    //музыка
     public void setIsMusicOn(bool isMusicOn)
     {
         this.isMusicOn = isMusicOn;
@@ -238,7 +211,7 @@ class GameData
         return isMusicOn;
     }
 
-    //high score 
+    //добавыление счета
     public void setHiScore(int hiScore)
     {
         this.hiScore = hiScore;
@@ -249,7 +222,7 @@ class GameData
         return hiScore;
     }
 
-    //points 
+    //запись счета
     public void setPoints(int points)
     {
         this.points = points;
@@ -259,8 +232,7 @@ class GameData
     {
         return points;
     }
-
-    //textureStyle 
+    
     public void setTexture(int textureStyle)
     {
         this.textureStyle = textureStyle;
@@ -270,8 +242,7 @@ class GameData
     {
         return textureStyle;
     }
-
-    //texture unlocked
+    
     public void setTextureUnlocked(bool[] textureUnlocked)
     {
         this.textureUnlocked = textureUnlocked;

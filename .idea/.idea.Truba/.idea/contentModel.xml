@@ -24,7 +24,6 @@
           <e p="Animals" t="Include" />
         </e>
         <e p="Scene" t="Include" />
-        <e p="Scenes" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AnimalController.cs" t="Include" />
           <e p="CameraShake.cs" t="Include" />
@@ -36,9 +35,8 @@
             <e p="InGameGui.cs" t="Include" />
             <e p="MainMenu.cs" t="Include" />
             <e p="ShopScript.cs" t="Include" />
-            <e p="UnityAdsManager.cs" t="Include" />
           </e>
-          <e p="MyAcrion.cs" t="Include" />
+          <e p="MyAction.cs" t="Include" />
           <e p="ObjectPooling.cs" t="Include" />
           <e p="PipeAnim.cs" t="Include" />
           <e p="PipeScript.cs" t="Include" />
@@ -49,9 +47,6 @@
           <e p="Background" t="Include" />
           <e p="GUI" t="Include" />
           <e p="Icons" t="Include" />
-        </e>
-        <e p="UnityAds" t="Include">
-          <e p="link.xml" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

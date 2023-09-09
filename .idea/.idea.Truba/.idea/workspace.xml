@@ -1,21 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3090d359-6616-4ccd-aa68-f9c5775708d8" name="Default Changelist" comment="" />
+    <list default="true" id="3090d359-6616-4ccd-aa68-f9c5775708d8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Truba/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Truba/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Truba/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Truba/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Truba/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Truba/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MyAcrion.inputactions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MyAcrion.inputactions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animals/Blue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/Blue.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animals/Green.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/Green.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animals/Red.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/Red.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animals/Yellow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/Yellow.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scene/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scene/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scene/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scene/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manager/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manager/GameSceneAdsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/GameSceneAdsManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manager/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/MainMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manager/ShopScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/ShopScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manager/UnityAdsManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manager/UnityAdsManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MyAcrion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MyAcrion.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PipeScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PipeScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Background/tree05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Background/tree05.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Background/tree34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Background/tree34.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/balls.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/balls.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityAdsApiReference.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityAdsApiReference.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityEngine.Advertisements.Android.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityEngine.Advertisements.Android.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityEngine.Advertisements.Editor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityEngine.Advertisements.Editor.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityEngine.Advertisements.Unsupported.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityEngine.Advertisements.Unsupported.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityEngine.Advertisements.iOS.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityEngine.Advertisements.iOS.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityEngine.Monetization.Android.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityEngine.Monetization.Android.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityEngine.Monetization.Editor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityEngine.Monetization.Editor.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityEngine.Monetization.Unsupported.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityEngine.Monetization.Unsupported.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityEngine.Monetization.iOS.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityEngine.Monetization.iOS.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/link.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/link.xml.meta" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/PipeAnim.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/GameSceneAdsManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/ShopScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PipeScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/MainMenu.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="2V3mOYb2jw4jKpCXjp0qEf2lEmJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -60,6 +136,15 @@
       <workItem from="1694075075290" duration="27000" />
       <workItem from="1694075185770" duration="197000" />
       <workItem from="1694076736137" duration="3390000" />
+      <workItem from="1694148253217" duration="1698000" />
+      <workItem from="1694155991408" duration="44000" />
+      <workItem from="1694156594324" duration="545000" />
+      <workItem from="1694157785626" duration="913000" />
+      <workItem from="1694163184309" duration="26000" />
+      <workItem from="1694163754873" duration="730000" />
+      <workItem from="1694164543970" duration="1726000" />
+      <workItem from="1694168015770" duration="11000" />
+      <workItem from="1694168136933" duration="1166000" />
     </task>
     <servers />
   </component>
@@ -68,6 +153,18 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

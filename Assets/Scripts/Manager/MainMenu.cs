@@ -12,7 +12,7 @@ public class MainMenu : MonoBehaviour
 
     private AudioSource sound;
 
-    //public AudioSource bgMusic;
+
     public Text bestScore;
     [SerializeField]
     private Sprite[] soundBtnSprites; //1 for off and 0 for on
@@ -25,20 +25,19 @@ public class MainMenu : MonoBehaviour
     private bool hidden;
     private bool canTouchSlideButton;
 
-    // Use this for initialization
-    void Start()
+ 
+    private void Start()
     {
         bestScore.text = "Best" + "\n" + GameManager.instance.hiScore;
         canTouchSlideButton = true;
         hidden = true;
         sound = GetComponent<AudioSource>();
-        //bgMusic = GetComponent<AudioSource>();
-        playBtn.GetComponent<Button>().onClick.AddListener(() => { PlayBtn(); });    //play
-        rateBtn.GetComponent<Button>().onClick.AddListener(() => { RateBtn(); });    //rate
+        playBtn.GetComponent<Button>().onClick.AddListener(() => { PlayBtn(); });    //срабатывание метода PlayBtn() при клике по кнопке Play
+//        rateBtn.GetComponent<Button>().onClick.AddListener(() => { RateBtn(); });    //rate
 
-        fbLikeBtn.GetComponent<Button>().onClick.AddListener(() => { FBlikeBtn(); });    //facebook
+//        fbLikeBtn.GetComponent<Button>().onClick.AddListener(() => { FBlikeBtn(); });    //facebook
         soundBtn.GetComponent<Button>().onClick.AddListener(() => { SoundBtn(); });    //sound
-        slideBtn.GetComponent<Button>().onClick.AddListener(() => { SlideBtn(); });    //slide
+//        slideBtn.GetComponent<Button>().onClick.AddListener(() => { SlideBtn(); });    //slide
 
         
         if (PlayerPrefs.GetInt("gameMuted") == 0)
@@ -53,19 +52,15 @@ public class MainMenu : MonoBehaviour
 
         }
     }
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 
-    void PlayBtn()
+    private void PlayBtn()
     {
         sound.Play();
         SceneManager.LoadScene(gameScene);
     }
 
-    void RateBtn()
+    private void RateBtn()
     {
         sound.Play();
 #if UNITY_IPHONE
@@ -79,7 +74,7 @@ public class MainMenu : MonoBehaviour
         GameManager.instance.Save();
     }
 
-    void SoundBtn()
+   private  void SoundBtn()  //включает выключает звук
     {
         sound.Play();
 

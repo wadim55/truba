@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class PipeScript : MonoBehaviour
 {
 
-    private MyAcrion myAction; // объект инпут системы
+    private MyAction myAction; // объект инпут системы
     
     [SerializeField]
     private string animalTag;      //ссылка на конкретный объект тега, чтобы разрешить столкновение с определенной трубой
@@ -17,14 +17,14 @@ public class PipeScript : MonoBehaviour
 
     private void Awake()
     {
-        myAction = new MyAcrion();
-        myAction.map.actionA.performed += context => MoveLeft();
-        myAction.map.actionD.performed += context => MoveRight();
+        myAction = new MyAction();
+        myAction.map.MoveLeft.performed += context => MoveLeft();
+        myAction.map.MoveRight.performed += context => MoveRight();
     }
 
     private void OnEnable()
     {
-        myAction.Enable();
+       myAction.Enable();
         
     }
 
@@ -53,7 +53,7 @@ public class PipeScript : MonoBehaviour
     {
         print(other.gameObject.tag);
         print(animalTag);
-        if (other.gameObject.tag == animalTag)
+        if (other.gameObject.CompareTag(animalTag))
         {
           //  увеличиваем счет, воспроизводим анимацию трубы
             sound.PlayOneShot(clips[0]);
@@ -74,6 +74,7 @@ public class PipeScript : MonoBehaviour
     //здесь мы перемещаем трубу от последней позиции к новой позиции вправо
     public void MoveRight()
     {
+      print("право");
         Vector3 lastPos = transform.position;
         Vector3 newPos = new Vector3(lastPos.x + 1.5f, lastPos.y);
 
