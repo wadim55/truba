@@ -28,13 +28,9 @@
           <e p="AnimalController.cs" t="Include" />
           <e p="CameraShake.cs" t="Include" />
           <e p="Manager" t="Include">
-            <e p="FacebookShare.cs" t="Include" />
             <e p="GameManager.cs" t="Include" />
-            <e p="GameSceneAdsManager.cs" t="Include" />
-            <e p="HideText.cs" t="Include" />
             <e p="InGameGui.cs" t="Include" />
             <e p="MainMenu.cs" t="Include" />
-            <e p="ShopScript.cs" t="Include" />
           </e>
           <e p="MyAction.cs" t="Include" />
           <e p="ObjectPooling.cs" t="Include" />

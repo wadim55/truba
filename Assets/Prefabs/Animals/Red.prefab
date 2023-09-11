@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 130516}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.71, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 426856}
@@ -88,10 +88,10 @@ MonoBehaviour:
   minUpForce: 730
   applyForce: 0
   img:
-  - {fileID: 1352912869, guid: 49dd971de1f3e7349bca30283a1ae939, type: 3}
-  - {fileID: 1352912869, guid: 49dd971de1f3e7349bca30283a1ae939, type: 3}
-  - {fileID: 1352912869, guid: 49dd971de1f3e7349bca30283a1ae939, type: 3}
-  - {fileID: 1352912869, guid: 49dd971de1f3e7349bca30283a1ae939, type: 3}
+  - {fileID: 646385929, guid: ec4c038a0ff51aa439975b4c5149def0, type: 3}
+  - {fileID: 646385929, guid: ec4c038a0ff51aa439975b4c5149def0, type: 3}
+  - {fileID: 646385929, guid: ec4c038a0ff51aa439975b4c5149def0, type: 3}
+  - {fileID: 646385929, guid: ec4c038a0ff51aa439975b4c5149def0, type: 3}
 --- !u!1 &150242
 GameObject:
   m_ObjectHideFlags: 0
@@ -165,7 +165,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 1352912869, guid: 49dd971de1f3e7349bca30283a1ae939, type: 3}
+  m_Sprite: {fileID: 646385929, guid: ec4c038a0ff51aa439975b4c5149def0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

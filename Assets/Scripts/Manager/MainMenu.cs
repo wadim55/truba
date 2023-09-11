@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour
 
     public string iOSURL = "";
     public string ANDROIDURL = "";
-    public string fbPage = ""; //use "fb://page/pageID" instead of http:// eg:- ("fb://page/315797608481737")
+    public string fbPage = "";
 
     private AudioSource sound;
 
@@ -28,16 +28,14 @@ public class MainMenu : MonoBehaviour
  
     private void Start()
     {
-        bestScore.text = "Best" + "\n" + GameManager.instance.hiScore;
+        bestScore.text = "Рекорд" + "\n" + GameManager.instance.hiScore;
         canTouchSlideButton = true;
         hidden = true;
         sound = GetComponent<AudioSource>();
         playBtn.GetComponent<Button>().onClick.AddListener(() => { PlayBtn(); });    //срабатывание метода PlayBtn() при клике по кнопке Play
-//        rateBtn.GetComponent<Button>().onClick.AddListener(() => { RateBtn(); });    //rate
 
-//        fbLikeBtn.GetComponent<Button>().onClick.AddListener(() => { FBlikeBtn(); });    //facebook
         soundBtn.GetComponent<Button>().onClick.AddListener(() => { SoundBtn(); });    //sound
-//        slideBtn.GetComponent<Button>().onClick.AddListener(() => { SlideBtn(); });    //slide
+
 
         
         if (PlayerPrefs.GetInt("gameMuted") == 0)
